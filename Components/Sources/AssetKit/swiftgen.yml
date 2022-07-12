@@ -3,7 +3,7 @@
 ##   SwiftGen will parse all `.strings` files found in that folder.
 strings:
   inputs:
-    - Sources/AssetKit/Base.lproj
+    - Base.lproj
   outputs:
     - templateName: structured-swift5
       output: ${DERIVED_SOURCES_DIR}/Strings+Generated.swift
